@@ -1,4 +1,4 @@
-
+// new js document
 let player1 = 'o';
 let player2 = 'x';
 let thePlayer = player1;
