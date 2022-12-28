@@ -113,6 +113,7 @@ function resultCheck() {
 function mousePressed() { // library uses this method to detect mouse click event handler
   let x = floor(mouseX / wdth);
   let y = floor(mouseY / hght);
+  console.log('mousePressed() : mouseX: ',mouseX,' mouseY: ',mouseY,' wdth: ',wdth,' hght: ',hght,' x: ',x,' y: ',y);
   if (thePlayer == player1) {
     if (tictactoeCanvas[x][y] == ' ') {
       tictactoeCanvas[x][y] = player1;
